@@ -30,5 +30,5 @@ int main()
     cout<<"Enter the second real and imaginary value."<<endl;
     c1.setdata();
     c1.display();
-
+    
 }
