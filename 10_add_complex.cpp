@@ -2,26 +2,33 @@
 using namespace std;
 class complex
 {
-    int a, b;
+    int rel, img;
     public:
-    void setdata(int real, int img)
+    void setdata()
     {
-        cout<<"Enter the data";
-        cin>>a>>b;
-        a=real;
-        b= img;
+        
+        cin>>rel>>img;
     }
-    int add(int d, int c)
+    int imaginary()
     {
-        d.x= a+ c.a;
+        return(img+img);
     }
-    void dispaly()
+    int real()
     {
-        cout<<"Added: "<<add();
+        return(rel+rel);
     }
-
+    void display()
+    {
+        cout<<"The addition of given data is"<<endl << real()<<"+"<<imaginary()<<"i";
+    }
 };
 int main()
 {
     complex c1;
+    cout<<"Enter the first real and imaginary value."<<endl;
+    c1.setdata();
+    cout<<"Enter the second real and imaginary value."<<endl;
+    c1.setdata();
+    c1.display();
+
 }
