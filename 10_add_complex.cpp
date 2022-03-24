@@ -19,7 +19,7 @@ class complex
     }
     void display()
     {
-        cout<<"The addition of given data is"<<endl << real()<<"+"<<imaginary()<<"i";
+        cout<<"The addition of given data is"<<endl << real()<<" + "<<imaginary()<<"i";
     }
 };
 int main()
