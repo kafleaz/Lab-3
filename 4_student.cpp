@@ -32,16 +32,17 @@ void student ::showdata(void)
 }
 int main()
 {
-     student s1,s2,s3;
-    cout<<"Enter Detail os students"<<endl;
-    s1.getdata();
-    s2.getdata();
-    s3.getdata();
-
+     student s[5];
+    cout<<"Enter Detail of students"<<endl;
+    for (int i = 0; i < 5; i++)
+    {
+        s[i].getdata();
+    }
     cout<<"Students with marks more than 70."<<endl;
-    s1.showdata();
-    s2.showdata();
-    s3.showdata();
+    for (int i = 0; i < 5; i++)
+    {
+        s[i].showdata();
+    }
     return 0;
 
 }
