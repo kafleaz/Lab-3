@@ -19,7 +19,7 @@ class length
     {
         float sum;
         sum=f+inch();
-        cout<<"After adding the length in is: "<<sum<<" feet";
+        cout<<"After adding, the length is: "<<sum<<" feet";
     }
 };
 int main()

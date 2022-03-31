@@ -26,9 +26,9 @@ int main()
 {
     item i1,i2,i3;
     cout<<"Enter the data of items."<<endl;
-    i1.setdata();
-    i2.setdata();
-    i3.setdata();
+    i1.setdata(), i2.setdata(), i3.setdata();
+    //i2.setdata();
+    //i3.setdata();
 
     cout<<"The detail of items."<<endl;
     i1.display();

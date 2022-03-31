@@ -7,11 +7,11 @@ class student
     float marks=0;
     public:
 
-    void getdata(void);
-    void showdata(void);
+    void getdata();
+    void showdata();
 
 };
-void student :: getdata(void)
+void student :: getdata()
 {
     
     cout<<"Name: ";
@@ -21,7 +21,7 @@ void student :: getdata(void)
     cout<<"Marks: ";
     cin>>marks;   
 }
-void student ::showdata(void)
+void student ::showdata()
 {
     if (marks> 70)
     {

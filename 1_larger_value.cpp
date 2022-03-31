@@ -19,10 +19,6 @@ class large
             return y;
          
     }
-    int small()
-    {
-        return(x<y);
-    }
 };
 int main()
 {

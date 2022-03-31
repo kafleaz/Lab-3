@@ -23,18 +23,32 @@ class student
 int student::count;
 int main()
 {
-    student s1,s2,s3;
-    s1.display();
-    s2.display();
-    s3.display();
+    student s[3];
+    for (int i = 0; i < 3; i++)
+    {
+       s[i].display();
+    }
+    
+    //s1.display();
+    //s2.display();
+    //s3.display();
+    for (int i = 0; i < 3; i++)
+    {
+        s[i].datain();
+    }
+    
+    //s1.datain();
+    //s2.datain();
+    //s3.datain();
 
-    s1.datain();
-    s2.datain();
-    s3.datain();
-
-    s1.display();
-    s2.display();
-    s3.display();
+    for (int i = 0; i < 3; i++)
+    {
+        s[i].display();
+    }
+    
+    //s1.display();
+    //s2.display();
+    //s3.display();
 
     return 0;
     

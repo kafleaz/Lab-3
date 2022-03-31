@@ -24,11 +24,11 @@ class complex
 };
 int main()
 {
-    complex c1;
+    complex c1,c2;
     cout<<"Enter the first real and imaginary value."<<endl;
     c1.setdata();
     cout<<"Enter the second real and imaginary value."<<endl;
-    c1.setdata();
+    c2.setdata();
     c1.display();
     
 }
